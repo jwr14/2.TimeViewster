@@ -58,8 +58,8 @@ Notes on design:
 
 	The main() function will call a function (found in the separate 'functions.c' file) 
 	that will create the 3 child processes.  Each child process, in turn, will call a 
-	corresponding function to perform the actions specified for that particular child process.
-	There are a total of 4 functions in the 'functions.c' file:
+	corresponding function to perform the actions specified for that particular child 
+	process.  There are a total of 4 functions in the 'functions.c' file:
 	
 		- int createThreeProcesses(int timeData);
 		
@@ -69,5 +69,5 @@ Notes on design:
 		
 		- int childProcessThree(int t);
 		
-	The output is printed directly from each child process, without pipes to the parent process.
-	I chose to use the execvp() system call for the uptime execution. 
+	The output is printed directly from each child process, without pipes to the parent 
+	process.  I chose to use the execvp() system call for the uptime execution. 
