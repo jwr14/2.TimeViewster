@@ -1,6 +1,5 @@
 /*
 Author:  Jason Ronquillo
-Online resources were used where noted below.
 */
 #include <time.h>
 #include <stdio.h>
@@ -9,8 +8,6 @@ Online resources were used where noted below.
 
 pid_t child1, child2, child3;
 
-/* For this function the following link was used as a resource:
-http://stackoverflow.com/questions/7479194/how-to-run-two-child-processes-simultaneously-in-c */
 int createThreeProcesses(int timeData)
 {
 	/* for first child process */
