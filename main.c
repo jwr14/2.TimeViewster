@@ -27,6 +27,6 @@ int main(int argc, char *argv[])
 	/* Creates 3 processes and calls the corresponding function for each process, passing the runtime */
 	createThreeProcesses(runtime);
 	
-	puts("\nEnd of program.  Thank you.\nI really enjoyed the course - and I learned a lot!"); /*May I please have an A for the course, hehe?"*/
+	puts("\nEnd of program.  Thank you."); /*May I please have an A for the course, hehe?"*/
 	return 0;
 } /* End of main() */ 
